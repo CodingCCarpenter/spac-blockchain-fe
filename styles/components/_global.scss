@@ -1,0 +1,29 @@
+$light: #fff;
+$dark: #000000;
+$var-dark: #495057;
+$var-darker: #343434; 
+$var-soft: #6c757d;
+$var-light: #dee2e6;
+$font1: 'Lato', sans-serif;
+$font2: 'Oswald', sans-serif;
+$title-font: 'Play', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $font1;
+}
+body { 
+    width: 100%;
+    height: 100%;
+    background-color: $light;
+}
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 790px) {
+  .content-box__element {
+    -webkit-margin-end: 40px;
+            margin-inline-end: 40px;
+  }
+
+  .tawfiki {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .header h2 {
+    font-size: 4rem;
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+  }
+
+  .content-box__wallet {
+    -webkit-margin-start: calc(20% - 25%);
+            margin-inline-start: calc(20% - 25%);
+  }
+
+  .title h3 {
+    font-size: 3.9rem;
+    line-height: 5rem;
+  }
+}

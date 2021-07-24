@@ -1,0 +1,6 @@
+@media (min-width: 550px) {
+  .title h3 {
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+  }
+}

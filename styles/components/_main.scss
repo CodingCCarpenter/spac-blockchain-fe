@@ -1,0 +1,72 @@
+.content-box {
+    width: 80%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        &__element {
+            width: 300px;
+            margin-block-end: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            border-radius: 50%;
+            box-shadow: 0 5px 5px 0 rgba(#000, 0.4);
+        img {
+            width: 300px;
+            height: 300px;
+        }  
+    } 
+        h2 {
+            margin-block-end: 5px;
+            font-size: 2.4rem;
+            font-family: $font2;    
+        }
+        h3 {
+            margin-block-end: 10px;
+            font-family: $font2;
+            font-size: 1.8rem;
+            font-weight: lighter;
+            letter-spacing: 2px;
+        }
+        p {
+            margin-block-start: 15px;
+            font-size: 1.8rem;
+            color: $var-soft;
+            font-weight: 800;
+            font-family: $font2;
+        }
+        span {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: $var-soft;
+            font-family: $font2;
+
+        }
+        .deluxe-items {
+            margin-block-end: 40px;
+        }
+        
+                    }
+
+.content-box__wallet a {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px 0 15px 25px;
+    display: block;
+    border: 1px solid #000;
+    box-shadow: 0 5px 10px 0 rgba(#000, 0.5);
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #E9280E;
+    font-family: $font2;
+    font-weight: 700;  
+
+}
+.content-box__wallet a:hover {
+    width: 210px;
+    font-size: 2.6rem;
+    color: $dark;
+}

@@ -1,0 +1,6 @@
+@media (min-width: 1500px) {
+  .content-box__wallet a {
+    -webkit-margin-start: calc(48% - 5rem);
+            margin-inline-start: calc(48% - 5rem);
+  }
+}

@@ -1,0 +1,10 @@
+@media (min-width: 1000px) {
+  .content-box__wallet a {
+    -webkit-margin-start: calc(50% - 9rem);
+            margin-inline-start: calc(50% - 9rem);
+  }
+
+  .powered h4 {
+    text-align: start;
+  }
+}
