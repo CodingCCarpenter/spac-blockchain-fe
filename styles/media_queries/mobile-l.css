@@ -3,4 +3,13 @@
     font-size: 3.4rem;
     line-height: 4.5rem;
   }
+
+  .header {
+    padding: 0 20px;
+  }
+  .header h1 {
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+    font-size: 3.7rem;
+  }
 }

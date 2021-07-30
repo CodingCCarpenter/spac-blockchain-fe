@@ -29,4 +29,13 @@
     font-size: 3.9rem;
     line-height: 5rem;
   }
+
+  .header {
+    padding: 0 30px;
+  }
+  .header h1 {
+    -webkit-margin-start: 20px;
+            margin-inline-start: 20px;
+    font-size: 4rem;
+  }
 }
