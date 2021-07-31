@@ -38,4 +38,8 @@
             margin-inline-start: 20px;
     font-size: 4rem;
   }
+
+  .popup-window__content {
+    margin: 30% auto;
+  }
 }
