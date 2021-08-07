@@ -5,6 +5,7 @@
   }
 
   .tawfiki {
+    font-size: 1.4rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -31,7 +32,7 @@
   }
 
   .header {
-    padding: 0 30px;
+    padding: 0 40px;
   }
   .header h1 {
     -webkit-margin-start: 20px;

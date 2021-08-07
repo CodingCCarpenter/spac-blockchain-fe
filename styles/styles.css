@@ -238,6 +238,26 @@ body {
   color: #000000;
 }
 
+.myBtn {
+  display: none;
+  padding: 7px;
+  position: fixed;
+  bottom: 20px;
+  right: 7px;
+  border: none;
+  background-color: #662D91;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+.myBtn:hover {
+  background-color: #555;
+}
+
 .exchange {
   width: 90%;
   margin: 100px auto 100px auto;
@@ -416,7 +436,7 @@ footer {
   letter-spacing: 2px;
   font-family: "Oswald", sans-serif;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-align: center;
 }
 .tawfiki h2 {

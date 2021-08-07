@@ -51,7 +51,7 @@
         
                     }
 
-.content-box__wallet a{
+.content-box__wallet a {
     width: 200px;
     margin: 0 auto;
     padding: 15px 0 15px 25px;
@@ -70,3 +70,24 @@
     font-size: 2.6rem;
     color: $dark;
 }
+/////////////////top button
+
+.myBtn {
+    display: none; 
+    padding: 7px; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 7px;
+    border: none; 
+    background-color: #662D91; 
+    color: white; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-size: 2rem;
+    font-family: $font2;
+    font-weight: bold; 
+  }
+  
+  .myBtn:hover {
+    background-color: #555;
+  }
