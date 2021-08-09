@@ -240,7 +240,7 @@ body {
 
 .myBtn {
   display: none;
-  padding: 7px;
+  padding: 5px;
   position: fixed;
   bottom: 20px;
   right: 7px;
@@ -252,6 +252,9 @@ body {
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
+}
+.myBtn img {
+  width: 30px;
 }
 
 .myBtn:hover {
