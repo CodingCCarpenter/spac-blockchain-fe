@@ -1,0 +1,87 @@
+.secondary-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-image: linear-gradient(to bottom, #0f1011, #1b1d1e, #26292c, #31363a, #3d4348);
+    box-shadow: 0 0 5px 0 rgba(#000,  1.0);
+    align-items: center;
+    z-index: 2; //So header stands above everything
+    .main-logo {
+        padding: 5px;
+    }
+    .main-logo img{
+        width: 60px;
+        height: 60px;
+        margin: 0 10px;
+        box-shadow: 0 5px 5px 0 rgba(#000, 0.4);
+    }
+    h1 {
+        font-family: $title-font;
+        font-size: 3.2rem;
+        color: $light;
+    }
+    a:hover {
+        font-size: 2rem;
+        background-color: rgba($var-light, 0.2);
+    } 
+
+}
+    //MENU BAR 
+    .menu {
+        margin-inline-start: auto;
+        display: inline-block;
+
+        &__button {
+            padding: 5px;
+            cursor: pointer;  
+            background-color: transparent;
+            border: none;
+        }
+        &:hover {
+            background-color: darken($var-soft, 10%);
+        }
+        .menu img {
+            width: 30px;
+            height: 30px;
+            margin: 0 auto;
+        }
+        //Dropdown menu
+        &__nav-bar {
+            width: 40%;
+            max-width: 300px;
+            min-width: 160px; 
+            position: absolute;
+            display: none;
+            top: 100px;
+            right: 0;        
+            background-color: lighten($var-soft, 20%);
+            z-index: 1; //Visual order
+        }
+        //class required for JS function
+        .show {
+            display:block;
+        }
+        //////Hidden section    
+        &__nav-bar ul{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+        }
+        &__nav-bar li { 
+            text-align: center;
+            border-block-start: solid 1px $light;
+        }   
+        a {
+            display: block;
+            padding: 15px;
+            font-size: 1.8rem;
+            color: $light;
+            font-weight: 600;
+            text-decoration: none;
+        }
+     
+}
+
+
+    

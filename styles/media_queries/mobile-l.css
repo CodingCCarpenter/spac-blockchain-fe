@@ -16,4 +16,25 @@
   .popup-window__content {
     margin: 35% auto;
   }
+
+  .aboutus {
+    -webkit-margin-after: 100px;
+            margin-block-end: 100px;
+  }
+  .aboutus h2 {
+    font-size: 4.4rem;
+  }
+  .aboutus p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .secondary-header {
+    padding: 0 20px;
+  }
+  .secondary-header h1 {
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+    font-size: 3.8rem;
+  }
 }

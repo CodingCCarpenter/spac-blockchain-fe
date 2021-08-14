@@ -3,4 +3,12 @@
     -webkit-margin-start: calc(48% - 5rem);
             margin-inline-start: calc(48% - 5rem);
   }
+
+  .secondary-header {
+    padding: 0 40px;
+  }
+  .secondary-header h1 {
+    -webkit-margin-start: 25px;
+            margin-inline-start: 25px;
+  }
 }
