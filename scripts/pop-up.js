@@ -1,7 +1,7 @@
 //Variables for the Connect Wallet button popup message
 
 var popUp = document.getElementById("popup");
-var button = document.getElementById("stakingBtn");
+var button = document.getElementById("walletBtn");
 var span = document.getElementsByClassName("close")[0];
 
 button.onclick = function() {
